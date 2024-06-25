@@ -1,0 +1,4 @@
+debian/Makefile ${env:TREE_SITTER_SRC_DIR}/
+src/keywords.h ${env:TREE_SITTER_SRC_DIR}/parser/src/
+src/parser.c ${env:TREE_SITTER_SRC_DIR}/parser/src/
+src/scanner.c ${env:TREE_SITTER_SRC_DIR}/parser/src/
