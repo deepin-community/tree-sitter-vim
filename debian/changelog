@@ -1,5 +1,13 @@
-template-repository (1.0-1) unstable; urgency=medium
+tree-sitter-vim (0.3.0-2) unstable; urgency=medium
 
-  * Initial release
+  * Upload to unstable
+  * Remove unnecessary python3 Build-Depends
+  * Add comment about provenance of src/tree_sitter/parser.h
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- James McCoy <jamessan@debian.org>  Thu, 25 Jan 2024 07:59:40 -0500
+
+tree-sitter-vim (0.3.0-1) experimental; urgency=medium
+
+  * Initial debianization. (Closes: #1052203)
+
+ -- James McCoy <jamessan@debian.org>  Sat, 07 Oct 2023 21:51:58 -0400
